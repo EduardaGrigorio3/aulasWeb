@@ -1,0 +1,73 @@
+.secao-1{
+    background-color: #2c3aba;
+    display: flex;
+    align-items: center;
+}
+
+.secao-1 img {
+    width: 300px;
+}
+
+.secao-1 h1, h2{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.secao-1 p{
+    width: 500px;
+}
+
+.container {
+    max-width: 970px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.secao-1-posicao{
+    display: flex;
+    align-items: center;
+}
+
+/*seção 2*/
+.secao-2{
+    background-color: white;
+}
+.secao-2 h1{
+    text-align: center;
+}
+
+.secao-2-posicao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px 0px;
+}
+
+.citacoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.citacao{
+    width: 400px;
+}
+
+/*seçao 3*/
+.secao-3 {
+    background-color: #2c3aba;
+    color: white;
+}
+
+.secao-3 li{
+    list-style-type: none;
+}
+
+.secao-3-posicao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px 0px;
+    text-align: center;
+}

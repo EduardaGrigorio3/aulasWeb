@@ -1,0 +1,94 @@
+header{
+    display: flex;
+    height: 50px;
+
+    align-items: center;
+    justify-content: space-between;
+
+    max-width: 970px;
+    margin:  0px auto;
+}
+
+header img{
+    width: 200px;
+    height: 40px;
+}
+
+header nav{
+    flex-grow: 1;
+   
+}
+
+header nav ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+header nav ul li{
+    list-style-type: none;
+}
+
+header nav ul li a{
+    padding: 10px;
+}
+
+header nav ul li a:hover{
+    background-color: #2c3aba;
+    color: #fff;
+    border-radius: 5px;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+header .lado-direito{
+    display: flex;
+
+    justify-content: space-evenly;
+
+    width: 150px;
+}
+
+header .lado-direito svg{
+    width: 20px;
+    height: 20px;
+}
+
+header .lado-direito svg path{
+    fill: blue;
+}
+
+.botao-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #2c3aba;
+    color: #fff;
+
+    width: 80px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.circulo-vermelho{
+    background-color: red;
+    color: #fff;
+    width: 18px;
+    height: 18px;
+    padding: 2px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    text-align: center;
+}
+
+.carrinho{
+    position: relative;
+}

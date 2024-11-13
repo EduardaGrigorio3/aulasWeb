@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .quadrado-azul, .quadrado-vermelho{
+            width: 200px;
+            height: 200px;
+        }
+
+        .quadrado-azul{
+            background-color: blue;
+        }
+
+        .quadrado-vermelho{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            position: absolute;
+            opacity: 0.5;
+            top: -100px;
+            right: 100px;
+            border-radius: 50%;
+        }
+
+        .quadrado-maior{
+            position: relative;
+            background-color: green;
+            width: 800px;
+            height: 800px;
+        }
+    </style>
+</head>
+<body>
+    <p>Primeiro quadrado</p>
+    <div class="quadrado-azul"></div>
+    <p>Segundo quadrado</p>
+    <div class="quadrado-maior">
+        <div class="quadrado-vermelho"></div>
+        <p>Continuação do texto</p>
+    </div>
+</body>
+</html>
